@@ -13,15 +13,14 @@
     align-items: center;
     justify-content: center;
     height: 25rem;
-
 }
-.header-logo-text{
+
+.header-logo-text {
     font-size: 24px;
     color: #f9faf8;
 }
 
 nav {
-
     display: flex;
     justify-content: space-between;
     color: white;
@@ -45,23 +44,22 @@ ul {
     display: flex;
 }
 
-.mainText{
+.mainText {
     font-size: 48px;
     font-weight: bold;
 }
 
-.secondary-text{
+.secondary-text {
     font-size: 18px;
-    color:  #e5e7eb;
+    color: #e5e7eb;
 }
 
-.mainText-section{
+.mainText-section {
     width: 40%;
     margin-right: 2rem;
 }
 
-
-.img-placeholder{
+.img-placeholder {
     background-color: #565a5e;
     width: 50%;
     height: 10rem;
@@ -80,9 +78,7 @@ ul {
     border: none;
 }
 
-
 /* section 2 */
-
 .section-2 {
     height: 40vh;
     display: flex;
@@ -104,7 +100,7 @@ ul {
 
 }
 
-.information-header-text{
+.information-header-text {
     margin-top: -4rem;
     margin-bottom: 2rem;
     font-size: 36px;
@@ -113,13 +109,10 @@ ul {
 }
 
 .info-box {
-
     border: 2px solid #3882f6;
     height: 100%;
     width: 100%;
-
     border-radius: 0.5rem;
-
 }
 
 .info-box-text {
@@ -137,7 +130,6 @@ ul {
 }
 
 .section3-subsection {
-   
     position: relative;
     width: 50%;
     display: flex;
@@ -160,16 +152,15 @@ ul {
 }
 
 /* section4 */
-
-.section4{
+.section4 {
     color: white;
     height: 10rem;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.section4-section{
-    
+
+.section4-section {
     border-radius: 0.5rem;
     width: 80%;
     padding: 2rem;
@@ -177,11 +168,10 @@ ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
 }
 
-.section4-button{
-   margin-right: 4rem;
+.section4-button {
+    margin-right: 4rem;
     padding: 2px 10px;
     background: #3882f6;
     cursor: pointer;
@@ -190,10 +180,11 @@ ul {
     border: 2px solid white;
 }
 
-.section4-paragraph{
+.section4-paragraph {
     margin-left: 4rem;
 }
 
+/* footer */
 .footer {
     background-color: #1f2937;
     height: 4rem;
