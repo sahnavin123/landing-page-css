@@ -78,7 +78,6 @@ ul {
     border: none;
 }
 
-/* Info Section */
 .info-section {
     height: 40vh;
     display: flex;
@@ -119,7 +118,6 @@ ul {
     text-align: center;
 }
 
-/* quote section */
 .quote-section {
     background-color: #e5e7eb;
     font-style: italic;
@@ -152,7 +150,6 @@ ul {
     right: 0;
 }
 
-/* product signup */
 .product-signup {
     color: white;
     height: 10rem;
@@ -185,7 +182,6 @@ ul {
     margin-left: 4rem;
 }
 
-/* footer */
 .footer {
     background-color: #1f2937;
     height: 4rem;
