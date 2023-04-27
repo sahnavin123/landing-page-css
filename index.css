@@ -15,51 +15,50 @@
     height: 25rem;
 }
 
-.header-logo-text {
+.header .logo-text {
     font-size: 24px;
     color: #f9faf8;
 }
 
-nav {
+.header nav {
     display: flex;
     justify-content: space-between;
     color: white;
 }
 
-ul {
+nav ul {
     list-style: none;
     display: flex;
-
 }
 
-.navigation-text {
+.header nav .nav-text {
     color: white;
     margin-left: 10px;
     outline: none;
     text-decoration: none;
 }
 
-.header-mid-section {
+.header .header-sub-section {
     margin-top: 4rem;
     display: flex;
 }
 
-.header-mainText {
+.header .mainText {
     font-size: 48px;
     font-weight: bold;
 }
 
-.header-secondary-text {
+.header .secondary-text {
     font-size: 18px;
     color: #e5e7eb;
 }
 
-.header-mainText-section {
+.header .mainText-section {
     width: 40%;
     margin-right: 2rem;
 }
 
-.header-img-placeholder {
+.header .img-placeholder {
     background-color: #565a5e;
     width: 50%;
     height: 10rem;
@@ -68,7 +67,7 @@ ul {
     justify-content: center;
 }
 
-.header-signup-button {
+.signup-button {
     cursor: pointer;
     margin-top: 8px;
     color: white;
@@ -86,20 +85,7 @@ ul {
     justify-content: center;
 }
 
-.info-card {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.info-content {
-    height: 8rem;
-    width: 8rem;
-    margin-left: 4rem;
-
-}
-
-.info-header-text {
+.info-section .info-heading-text {
     margin-top: -4rem;
     margin-bottom: 2rem;
     font-size: 36px;
@@ -107,14 +93,34 @@ ul {
     color: #1f2937;
 }
 
-.info-box {
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card .box {
+    height: 8rem;
+    width: 8rem;
+    margin-left: 4rem;
+
+}
+
+.card .box .content {
     border: 2px solid #3882f6;
     height: 100%;
     width: 100%;
     border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.info-box-text {
+.card .box .content .content-text {
+    text-align: center;
+}
+
+.card .box .box-text {
     text-align: center;
 }
 
@@ -128,7 +134,7 @@ ul {
     justify-content: center;
 }
 
-.quote-section-text {
+.quote-section .quote-text {
     position: relative;
     width: 50%;
     display: flex;
@@ -139,11 +145,11 @@ ul {
     color: #1f2937;
 }
 
-.quote-section-text p:not(:last-child) {
+.quote-section .quote-text p:not(:last-child) {
     margin-bottom: 14px;
 }
 
-.quote-section-writer {
+.quote-section .quote-writer {
     font-weight: bold;
     position: absolute;
     bottom: 0;
@@ -158,7 +164,7 @@ ul {
     justify-content: center;
 }
 
-.signup-section {
+.product-signup .signup-section {
     border-radius: 0.5rem;
     width: 80%;
     padding: 2rem;
@@ -168,17 +174,12 @@ ul {
     justify-content: space-between;
 }
 
-.signup-section-button {
-    margin-right: 4rem;
-    padding: 2px 10px;
-    background: #3882f6;
-    cursor: pointer;
-    border-radius: 0.5rem;
-    color: white;
+.product-btn {
     border: 2px solid white;
+    margin-right: 4rem;
 }
 
-.signup-section-paragraph {
+.product-signup .signup-section .paragraph {
     margin-left: 4rem;
 }
 
